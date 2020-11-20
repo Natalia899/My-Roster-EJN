@@ -34,7 +34,6 @@ app.get('/teams/:teamName', function (req, res) {
                 position: player.pos
             }
         })
-    console.log(team);
     res.send(team)
 })
 
